@@ -1,0 +1,43 @@
+<robot
+  name="jie_xi_wen_ding">
+  <link
+    name="jie_xi_wen_ding">
+    <inertial>
+      <origin
+        xyz="-4.5499E-06 -5.8688 -5.20289999964065E-06"
+        rpy="0 0 0" />
+      <mass
+        value="18472" />
+      <inertia
+        ixx="224741.145240377"
+        ixy="-0.522676181763753"
+        ixz="-4.37290755302825E-07"
+        iyy="4513.79926607722"
+        iyz="0.597687452356971"
+        izz="224741.145218536" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://jie_xi_wen_ding/meshes/jie_xi_wen_ding.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://jie_xi_wen_ding/meshes/jie_xi_wen_ding.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

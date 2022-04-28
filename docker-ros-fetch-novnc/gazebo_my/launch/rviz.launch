@@ -1,0 +1,3 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find gazebo_my)/rviz/navigation.rviz"/>
+</launch>

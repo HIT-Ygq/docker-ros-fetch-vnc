@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<model>
+  <name>xi _shou_jie_xi</name>
+  <version>1.0</version>
+  <sdf version="1.4">model.sdf</sdf>
+  <author>
+    <name>zhou wen zhi</name>
+    <email>1194790701@qq.com</email>
+  </author>
+  <description></description>
+</model>

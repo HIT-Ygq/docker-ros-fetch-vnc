@@ -1,0 +1,43 @@
+<sdf version='1.4'>
+  <model name='dian_ji_shi'>
+    <link name='dian_ji_shi'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>2.8027e-15 -1.75 3.29193e-16 0 -0 0</pose>
+        <mass>8260</mass>
+        <inertia>
+          <ixx>32931.6</ixx>
+          <ixy>-8.70415e-12</ixy>
+          <ixz>-1.5143e-11</ixz>
+          <iyy>95871.1</iyy>
+          <iyz>-4.21086e-12</iyz>
+          <izz>79803.6</izz>
+        </inertia>
+      </inertial>
+      <collision name='dian_ji_shi_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://dian_ji_shi/meshes/dian_ji_shi.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='dian_ji_shi_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://dian_ji_shi/meshes/dian_ji_shi.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+
+

@@ -1,0 +1,15 @@
+material jingbao/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture jingbao.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

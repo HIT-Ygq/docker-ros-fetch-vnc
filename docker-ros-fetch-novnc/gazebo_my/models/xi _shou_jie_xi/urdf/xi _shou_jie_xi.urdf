@@ -1,0 +1,43 @@
+<robot
+  name="xi _shou_jie_xi">
+  <link
+    name="xi _shou_jie_xi">
+    <inertial>
+      <origin
+        xyz="4.1904E-07 -8.4378 3.29310000516649E-07"
+        rpy="0 0 0" />
+      <mass
+        value="35590" />
+      <inertia
+        ixx="830005.974136943"
+        ixy="-0.125458304828128"
+        ixz="-4.9112452652598E-09"
+        iyy="12075.170218164"
+        iyz="0.0985923769086456"
+        izz="830006.273055743" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xi _shou_jie_xi/meshes/xi _shou_jie_xi.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://xi _shou_jie_xi/meshes/xi _shou_jie_xi.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

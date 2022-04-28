@@ -1,0 +1,42 @@
+<sdf version='1.4'>
+  <model name='jie_xi_wen_ding'>
+    <link name='jie_xi_wen_ding'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-4.5499e-06 -5.8688 -5.2029e-06 0 -0 0</pose>
+        <mass>18472</mass>
+        <inertia>
+          <ixx>224741</ixx>
+          <ixy>-0.522676</ixy>
+          <ixz>-4.37291e-07</ixz>
+          <iyy>4513.8</iyy>
+          <iyz>0.597687</iyz>
+          <izz>224741</izz>
+        </inertia>
+      </inertial>
+      <collision name='jie_xi_wen_ding_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jie_xi_wen_ding/meshes/jie_xi_wen_ding.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='jie_xi_wen_ding_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://jie_xi_wen_ding/meshes/jie_xi_wen_ding.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+

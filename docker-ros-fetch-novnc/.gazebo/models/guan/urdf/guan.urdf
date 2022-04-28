@@ -1,0 +1,43 @@
+<robot
+  name="guan">
+  <link
+    name="guan">
+    <inertial>
+      <origin
+        xyz="-1.6275E-17 -0.75 0.00785920000000005"
+        rpy="0 0 0" />
+      <mass
+        value="588.08" />
+      <inertia
+        ixx="127.458955349061"
+        ixy="-3.22586390175E-17"
+        ixz="-2.07202039028163E-16"
+        iyy="37.1177393774159"
+        iyz="6.79921851562823E-15"
+        izz="125.698687882859" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://guan/meshes/guan.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://guan/meshes/guan.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

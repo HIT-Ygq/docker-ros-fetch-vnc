@@ -1,0 +1,43 @@
+<robot
+  name="T1501">
+  <link
+    name="T1501">
+    <inertial>
+      <origin
+        xyz="-6.1525E-05 -1.2595 -3.07619999999229E-05"
+        rpy="0 0 0" />
+      <mass
+        value="2677.9" />
+      <inertia
+        ixx="1632.1576844343"
+        ixy="0.220861521570716"
+        ixz="-5.06835232788903E-06"
+        iyy="481.150740694228"
+        iyz="-0.110430760784289"
+        izz="1632.30573357459" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://T1501/meshes/T1501.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://T1501/meshes/T1501.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

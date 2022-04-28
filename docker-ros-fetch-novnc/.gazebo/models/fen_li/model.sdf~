@@ -1,0 +1,41 @@
+<model name='fen_li'>
+    <link name='fen_li'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>7.446e-16 -1.0299 6.10863e-17 0 -0 0</pose>
+        <mass>878.42</mass>
+        <inertia>
+          <ixx>368.416</ixx>
+          <ixy>-7.33154e-13</ixy>
+          <ixz>2.02177e-16</ixz>
+          <iyy>62.3173</iyy>
+          <iyz>1.79271e-14</iyz>
+          <izz>368.416</izz>
+        </inertia>
+      </inertial>
+      <collision name='fen_li_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://fen_li/meshes/fen_li.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='fen_li_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://fen_li/meshes/fen_li.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+

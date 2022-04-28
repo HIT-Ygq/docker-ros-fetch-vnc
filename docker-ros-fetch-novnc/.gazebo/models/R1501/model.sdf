@@ -1,0 +1,42 @@
+<sdf version='1.4'>
+  <model name='R1501'>
+    <link name='R1501'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>1.0225e-15 -0.88398 5.22725e-17 0 -0 0</pose>
+        <mass>822.78</mass>
+        <inertia>
+          <ixx>260.169</ixx>
+          <ixy>-8.22438e-13</ixy>
+          <ixz>3.24849e-16</ixz>
+          <iyy>66.0733</iyy>
+          <iyz>1.14038e-14</iyz>
+          <izz>260.169</izz>
+        </inertia>
+      </inertial>
+      <collision name='R1501_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://R1501/meshes/R1501.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='R1501_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://R1501/meshes/R1501.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+

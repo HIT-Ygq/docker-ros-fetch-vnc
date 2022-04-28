@@ -1,0 +1,43 @@
+<robot
+  name="lou_ti">
+  <link
+    name="lou_ti">
+    <inertial>
+      <origin
+        xyz="-0.65283 0.36146 4.78119999997787E-06"
+        rpy="0 0 0" />
+      <mass
+        value="6953.7" />
+      <inertia
+        ixx="35952.4110296362"
+        ixy="7698.33271612982"
+        ixz="-0.0591861612822522"
+        iyy="41152.4360319083"
+        iyz="0.0135821208660171"
+        izz="48241.0849823365" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lou_ti/meshes/lou_ti.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lou_ti/meshes/lou_ti.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

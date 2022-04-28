@@ -1,0 +1,20 @@
+Gazebo multi-robot simulator, version 9.0.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1649840461 387673348) [Msg] Waiting for master.
+(1649840461 391307765) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1649840461 391318598) [Msg] Publicized address: 172.17.145.158
+(1649840461 717517558) Init world[default]
+(1649840461 971681399) applying Gaussian noise model with mean 0, stddev 0.02, bias 0
+(1649840461 992263666) [Wrn] [msgs.cc:1852] Conversion of sensor type[depth] not supported.
+(1649840462 21066646) ODESliderJoint::SetAnchor not implemented.
+(1649840462 21085922) ODESliderJoint::SetAnchor not implemented.
+(1649840462 21448104) ODESliderJoint::SetAnchor not implemented.
+(1649840462 21472671) ODESliderJoint::SetAnchor not implemented.
+(1649840462 219473936) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call
+(1649840462 735156966) [Wrn] [msgs.cc:1852] Conversion of sensor type[depth] not supported.
+(1649840462 736699479) [Wrn] [msgs.cc:1852] Conversion of sensor type[depth] not supported.
+(1649840462 737798716) [Wrn] [msgs.cc:1852] Conversion of sensor type[depth] not supported.

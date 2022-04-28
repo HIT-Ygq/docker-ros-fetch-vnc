@@ -1,0 +1,42 @@
+<sdf version='1.4'>
+  <model name='T1501'>
+    <link name='T1501'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-6.1525e-05 -1.2595 -3.0762e-05 0 -0 0</pose>
+        <mass>2677.9</mass>
+        <inertia>
+          <ixx>1632.16</ixx>
+          <ixy>0.220862</ixy>
+          <ixz>-5.06835e-06</ixz>
+          <iyy>481.151</iyy>
+          <iyz>-0.110431</iyz>
+          <izz>1632.31</izz>
+        </inertia>
+      </inertial>
+      <collision name='T1501_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://T1501/meshes/T1501.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='T1501_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://T1501/meshes/T1501.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+

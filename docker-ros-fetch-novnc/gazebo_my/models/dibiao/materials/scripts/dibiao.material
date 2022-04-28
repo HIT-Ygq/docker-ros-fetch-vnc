@@ -1,0 +1,15 @@
+material dibiao/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture dibiao.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

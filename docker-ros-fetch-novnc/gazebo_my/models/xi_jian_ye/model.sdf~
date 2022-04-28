@@ -1,0 +1,42 @@
+<sdf version='1.4'>
+  <model name='xi_jian_ye'>
+    <link name='xi_jian_ye'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.00017423 -0.62032 -0.00017423 0 -0 0</pose>
+        <mass>3467.2</mass>
+        <inertia>
+          <ixx>1530.55</ixx>
+          <ixy>0.586183</ixy>
+          <ixz>-0.000931962</ixz>
+          <iyy>1180.52</iyy>
+          <iyz>0.586183</iyz>
+          <izz>1530.55</izz>
+        </inertia>
+      </inertial>
+      <collision name='xi_jian_ye_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://xi_jian_ye/meshes/xi_jian_ye.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='xi_jian_ye_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://xi_jian_ye/meshes/xi_jian_ye.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+

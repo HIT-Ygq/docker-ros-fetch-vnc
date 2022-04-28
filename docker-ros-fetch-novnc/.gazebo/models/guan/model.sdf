@@ -1,0 +1,42 @@
+<sdf version='1.4'>
+  <model name='guan'>
+    <link name='guan'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-1.6275e-17 -0.75 0.0078592 0 -0 0</pose>
+        <mass>588.08</mass>
+        <inertia>
+          <ixx>127.459</ixx>
+          <ixy>-3.22586e-17</ixy>
+          <ixz>-2.07202e-16</ixz>
+          <iyy>37.1177</iyy>
+          <iyz>6.79922e-15</iyz>
+          <izz>125.699</izz>
+        </inertia>
+      </inertial>
+      <collision name='guan_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://guan/meshes/guan.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='guan_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://guan/meshes/guan.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+

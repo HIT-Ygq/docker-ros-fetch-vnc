@@ -1,0 +1,43 @@
+<robot
+  name="fen_li">
+  <link
+    name="fen_li">
+    <inertial>
+      <origin
+        xyz="7.446E-16 -1.0299 6.10863041900833E-17"
+        rpy="0 0 0" />
+      <mass
+        value="878.42" />
+      <inertia
+        ixx="368.416197809351"
+        ixy="-7.33154109517443E-13"
+        ixz="2.02177266091369E-16"
+        iyy="62.3173116501548"
+        iyz="1.79270761733691E-14"
+        izz="368.416197809351" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://fen_li/meshes/fen_li.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://fen_li/meshes/fen_li.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

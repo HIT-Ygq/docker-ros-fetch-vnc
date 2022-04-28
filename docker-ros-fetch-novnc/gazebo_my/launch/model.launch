@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+  <launch>
+    <arg name="robot" default="fetch"/>
+    <arg name="debug" default="false"/>
+    <arg name="gui" default="true"/>
+    <arg name="headless" default="false"/>
+
+  <!-- Start Gazebo with a blank world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="debug" value="$(arg debug)" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="headless" value="$(arg headless)"/>
+  </include>
+    <!-- 导入urdf文件，第一个参数修改为功能包名，第二个参数修改为urdf文件的路径 -->
+    <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find gazebo_my)/models/yibiao/urdf/yibiao.urdf'" />
+
+    <!-- 导入spawn_urdf节点，使Gazebo能够识别urdf文件。需要修改的参数为功能包的路径 -->
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model model" />
+    
+  </launch>

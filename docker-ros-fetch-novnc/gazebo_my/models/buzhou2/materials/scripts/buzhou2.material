@@ -1,0 +1,15 @@
+material buzhou2/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture buzhou2.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

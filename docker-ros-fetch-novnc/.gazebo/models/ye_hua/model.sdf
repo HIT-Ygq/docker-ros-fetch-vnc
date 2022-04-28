@@ -1,0 +1,42 @@
+<sdf version='1.4'>
+  <model name='ye_hua'>
+    <link name='ye_hua'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>7.253e-17 -0.87808 1.33782e-16 0 -0 0</pose>
+        <mass>1864.4</mass>
+        <inertia>
+          <ixx>689.15</ixx>
+          <ixy>-1.59359e-13</ixy>
+          <ixz>6.93603e-14</ixz>
+          <iyy>337.927</iyy>
+          <iyz>1.62166e-13</iyz>
+          <izz>689.15</izz>
+        </inertia>
+      </inertial>
+      <collision name='ye_hua_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://ye_hua/meshes/ye_hua.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='ye_hua_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://ye_hua/meshes/ye_hua.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+

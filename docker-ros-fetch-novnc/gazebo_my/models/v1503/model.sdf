@@ -1,0 +1,42 @@
+<sdf version='1.4'>
+  <model name='v1503'>
+    <link name='v1503'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>6.5162e-05 -0.65505 -6.5162e-05 0 -0 0</pose>
+        <mass>1264.2</mass>
+        <inertia>
+          <ixx>316.06</ixx>
+          <ixy>-0.0572497</ixy>
+          <ixz>5.36804e-06</ixz>
+          <iyy>226.608</iyy>
+          <iyz>-0.0572497</iyz>
+          <izz>316.133</izz>
+        </inertia>
+      </inertial>
+      <collision name='v1503_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://v1503/meshes/v1503.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='v1503_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://v1503/meshes/v1503.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+

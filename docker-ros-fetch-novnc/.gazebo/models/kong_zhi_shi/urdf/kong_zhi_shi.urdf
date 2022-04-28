@@ -1,0 +1,43 @@
+<robot
+  name="kong_zhi_shi">
+  <link
+    name="kong_zhi_shi">
+    <inertial>
+      <origin
+        xyz="4.4409E-16 -1.75 -1.12644694404054E-15"
+        rpy="0 0 0" />
+      <mass
+        value="5040" />
+      <inertia
+        ixx="13785.8"
+        ixy="-3.56559226588615E-12"
+        ixz="-1.00614417260688E-11"
+        iyy="21789.6"
+        iyz="-2.77200279332098E-12"
+        izz="18293.8" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://kong_zhi_shi/meshes/kong_zhi_shi.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://kong_zhi_shi/meshes/kong_zhi_shi.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

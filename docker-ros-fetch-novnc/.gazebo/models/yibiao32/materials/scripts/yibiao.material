@@ -1,0 +1,15 @@
+material yibiao32/Diffuse
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture yibiao32.png
+        filtering anistropic
+        max_anisotropy 16
+      }
+    }
+  }
+}

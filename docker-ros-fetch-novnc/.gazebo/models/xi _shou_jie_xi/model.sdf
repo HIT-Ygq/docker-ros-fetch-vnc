@@ -1,0 +1,42 @@
+<sdf version='1.4'>
+  <model name='xi _shou_jie_xi'>
+    <link name='xi _shou_jie_xi'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>4.1904e-07 -8.4378 3.2931e-07 0 -0 0</pose>
+        <mass>35590</mass>
+        <inertia>
+          <ixx>830006</ixx>
+          <ixy>-0.125458</ixy>
+          <ixz>-4.91125e-09</ixz>
+          <iyy>12075.2</iyy>
+          <iyz>0.0985924</iyz>
+          <izz>830006</izz>
+        </inertia>
+      </inertial>
+      <collision name='xi _shou_jie_xi_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://xi _shou_jie_xi/meshes/xi _shou_jie_xi.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='xi _shou_jie_xi_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://xi _shou_jie_xi/meshes/xi _shou_jie_xi.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+

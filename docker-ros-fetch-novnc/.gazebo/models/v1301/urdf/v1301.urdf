@@ -1,0 +1,43 @@
+<robot
+  name="v1301">
+  <link
+    name="v1301">
+    <inertial>
+      <origin
+        xyz="-2.9698E-17 -2.1428 -7.9194999998688E-06"
+        rpy="0 0 0" />
+      <mass
+        value="9579.6" />
+      <inertia
+        ixx="17997.7680393243"
+        ixy="-4.99284049003401E-13"
+        ixz="-3.51778184608284E-15"
+        iyy="3237.68372990313"
+        iyz="0.1891155444115"
+        izz="17997.932360176" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://v1301/meshes/v1301.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://v1301/meshes/v1301.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

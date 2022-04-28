@@ -1,0 +1,43 @@
+<robot
+  name="dian_ji_shi">
+  <link
+    name="dian_ji_shi">
+    <inertial>
+      <origin
+        xyz="2.8027E-15 -1.75 3.29193055959458E-16"
+        rpy="0 0 0" />
+      <mass
+        value="8260" />
+      <inertia
+        ixx="32931.6166666666"
+        ixy="-8.7041485130612E-12"
+        ixz="-1.51429707893428E-11"
+        iyy="95871.0666666665"
+        iyz="-4.21086332622995E-12"
+        izz="79803.6166666665" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dian_ji_shi/meshes/dian_ji_shi.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dian_ji_shi/meshes/dian_ji_shi.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

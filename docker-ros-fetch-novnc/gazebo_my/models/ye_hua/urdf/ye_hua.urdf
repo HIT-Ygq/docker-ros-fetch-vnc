@@ -1,0 +1,43 @@
+<robot
+  name="ye_hua">
+  <link
+    name="ye_hua">
+    <inertial>
+      <origin
+        xyz="7.253E-17 -0.87808 1.33782117358218E-16"
+        rpy="0 0 0" />
+      <mass
+        value="1864.4" />
+      <inertia
+        ixx="689.150202331606"
+        ixy="-1.59358918134346E-13"
+        ixz="6.93602936863289E-14"
+        iyy="337.927338781252"
+        iyz="1.62165952142697E-13"
+        izz="689.150202331606" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ye_hua/meshes/ye_hua.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ye_hua/meshes/ye_hua.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,42 @@
+<sdf version='1.4'>
+  <model name='lou_ti'>
+    <link name='lou_ti'>
+      <pose>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.65283 0.36146 4.7812e-06 0 -0 0</pose>
+        <mass>6953.7</mass>
+        <inertia>
+          <ixx>35952.4</ixx>
+          <ixy>7698.33</ixy>
+          <ixz>-0.0591862</ixz>
+          <iyy>41152.4</iyy>
+          <iyz>0.0135821</iyz>
+          <izz>48241.1</izz>
+        </inertia>
+      </inertial>
+      <collision name='lou_ti_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://lou_ti/meshes/lou_ti.STL</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='lou_ti_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://lou_ti/meshes/lou_ti.STL</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <velocity_decay>
+        <linear>0</linear>
+        <angular>0</angular>
+      </velocity_decay>
+    </link>
+  </model>
+</sdf>
+
